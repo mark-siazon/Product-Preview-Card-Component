@@ -1,3 +1,37 @@
 :root{
-    --
+    --test: #fff;
+}
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+section{
+    display: inline-block;
+    margin: 0 !important;
+}
+footer{
+    margin-top: 10vh;
+    display: none;
+}
+
+#hero-img{
+    width: 25%;
+}
+
+.hero-header{
+    background-color: aquamarine;
+}
+
+.hero-paragraph{
+    background-color: yellow;
+}
+
+.hero-prices{
+    background-color: violet;
+}
+
+.hero-btns{
+    background-color: tomato;
 }
