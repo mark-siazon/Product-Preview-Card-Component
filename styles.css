@@ -1,7 +1,7 @@
 :root{
     --white: #fff;
     --bg_theme: #F2EBE3;
-    --test: #3C8067;
+    --primary_color: #3C8067;
     --VDb: #1C232B;
     --Dgb: #6C7289;
     
@@ -13,6 +13,7 @@ html, body{
     background-color: #553822 !important;
     font-size: 14px; 
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
     /* Font size (paragraph): 14px */
 }
 
@@ -30,6 +31,7 @@ html, body{
 .__col-1{
     background-color: rgb(37, 0, 102);
     
+    
 }
 
 .__col-2{
@@ -45,30 +47,61 @@ footer{
     display: none;
 }
 
-.hero-header{
+.__hero-header{
     background-color: aquamarine;
+    margin-right: 2rem;
 }
 
-.hero-header h1{
+.__hero-header h1{
     font-family: 'Fraunces', serif;
 }
 
-.hero-paragraph{
-    background-color: yellow;
+.__hero-header h3{
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
 }
 
-.hero-prices{
+.__hero-paragraph{
+    background-color: yellow;
+    margin-right: 2vw;
+}
+
+.__hero-prices{
     font-family: 'Fraunces', serif;
     background-color: rgb(77, 77, 150);
+    color: var(--primary_color);
 }
 
-.hero-btns{
+.__hero-btns{
     background-color: tomato;
 }
 
+.__main-btns{
+    background-color: var(--primary_color);
+}
 
 
 
+
+/* Color Styles */
+/* .__main{
+    background-color: #ff19a7;
+    margin-top: 12.5vh !important;
+}
+
+.__col-main{
+    background-color: #ffffff;
+}
+
+.__col-1{
+    background-color: rgb(37, 0, 102);
+    
+}
+
+.__col-2{
+    background-color: rgb(71, 71, 71);
+    
+} */
 
 
 
