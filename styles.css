@@ -1,101 +1,37 @@
 :root{
-    --white: #fff;
     --bg_theme: #F2EBE3;
     --primary_color: #3C8067;
-    --VDb: #1C232B;
-    --Dgb: #6C7289;
-    
 }
-/* font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif; */
-
 html, body{
-    /* background-color: #553822 !important; */
+    background-color: var(--bg_theme);
     font-size: 14px; 
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    /* Font size (paragraph): 14px */
 }
-
-
-/* Column Styles */
-.__main{
-    /* background-color: #ff19a7; */
-    /* margin-top: 10.5vh !important; */
-}
-
 .__col-main{
-    /* background-color: #ffffff; */
+    background-color: #fff;
     border-radius: 1rem 0 0 1rem ;
-    box-shadow: 0 1rem 2.525rem rgba(0,0,0,.475)!important;
+    box-shadow: 0 1rem 2.525rem rgba(0,0,0,.475);
 }
 
-.__col-1{
-    /* background-color: rgb(37, 0, 102); */
-    
-    
-}
-
-.__col-2{
-    /* background-color: rgb(71, 71, 71); */
-    
-}
-
-
-/* Main Styles */
-
-footer{
-    margin-top: 10vh;
-    display: none;
-}
-
-.__hero-header{
-    /* background-color: aquamarine; */
-    margin-right: 2rem;
-}
-
-.__hero-header h1{
+/***** CTN-2 - Main Styles *****/
+.__hero-header h1, .__hero-prices{
     font-family: 'Fraunces', serif;
 }
-
 .__hero-header h3{
     text-transform: uppercase;
     letter-spacing: 0.15rem;
 }
 
-.__hero-paragraph{
-    /* background-color: yellow; */
-    margin-right: 2vw;
-}
-
+/***** CTN-2 - Prices Section *****/ 
 .__hero-prices{
-    font-family: 'Fraunces', serif;
-    /* background-color: rgb(77, 77, 150); */
     color: var(--primary_color);
 }
 
-.__hero-btns{
-    /* background-color: tomato; */
-}
-
+/***** CTN-2 - Button Section *****/ 
 .__main-btns{
     background-color: var(--primary_color);
+    border: 0.5px solid #1C232B !important;
 }
-
 .__main-btns:hover{
-    background-color: rgb(66, 120, 85) !important;
-}
-
-
-
-
-/* Preset Styles */
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-.attribution a{
-    color: hsl(228, 45%, 44%);
+    background-color: #204434 !important;
 }
