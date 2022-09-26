@@ -1,6 +1,7 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -16,8 +17,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,26 +25,18 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+<hr>
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Mobile Small: ![](./finished-website/1-Mobile-S.png)
-- Mobile Large: ![](./finished-website/2-Mobile-L.png)
-- Tablet: ![](./finished-website/3-Tablet.png)
-- Laptop: ![](./finished-website/4-Laptop.png)
-- Laptop/Desktop: ![](./finished-website/5-Laptop.png)
-- Original Clear BG: ![](./finished-website/6-Laptop.png)
-
-
+| **Mobile Small:** | **Laptop:** |
+| :---------------: | :---------: |
+| <img src="./finished-website/1-Mobile-S.png" width="250"> | <img src="./finished-website/4-Laptop.png" width="450"> | 
+| **Mobile Large:** | **Laptop/Desktop:** |
+| <img src="./finished-website/2-Mobile-L.png" width="250"> | <img src="./finished-website/5-LaptopL-Desktop.png" width="450"> |
+| **Tablet:** | **Original Clear BG:** |
+|  <img src="./finished-website/3-Tablet.png" width="350"> | <img src="./finished-website/6-ClearBg.png" width="450"> |
+<hr>
 
 ### Links
 
@@ -58,62 +49,38 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Mostly review about: 
+  - Responsive layouts
+  - Bootstrap
+- Utilize more of the bootstrap classes than the past.
+- Create a documentation like this one, which is my first .md to seriously create.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Planning to learn more about CSS Layouts (Grid and Flexbox)
+- More responsive and accurate styling (margins, paddings, etc.) 
+- Looking forward to use CSS Tricks and more pseudo tricks in the future.
+- More efficient approach in creating front-end designs, and much more.
+- And lastly, implementation of Javascript in web development journey.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Stack Overflow](https://www.stackoverflow.com) - I'll admit that i used this website a lot, searching for fixes while I progress.
+- [W3schools](www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3docs](www.w3docs.com) - This helped me for learning more about Pseudo CSS and other deeper CSS tricks.
+- [Coderjony](https://coderjony.com/blogs/media-queries-in-css-min-width-and-max-width) - A great article that helped me recall using media queries, specially min/max-width.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [My Github Profile](https://github.com/Iron-Mark)
+- Frontend Mentor - [@Iron-Mark](https://www.frontendmentor.io/profile/Iron-Mark)
+- Twitter - [@iron_markk](https://www.twitter.com/iron_markk)
+- Instagram - [@iron_markk](https://www.instagram.com/iron_markk/)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to thank first in myself to do these things instead of just sleeping. Also to the internet and the websites I specified in the "Useful resources" section, or some that isn't, which is probably I forgot. Also to the FrontEndMentor for providing these resources for everyone to learn much easier, and not just get stuck in tutorial hell watching random videos.
