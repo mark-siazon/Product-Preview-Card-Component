@@ -1,7 +1,7 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Product Preview Card Component
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,6 +16,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [Suggestions/Feedbacks](#Suggestions/Feedbacks)
 
 ## Overview
 
@@ -29,19 +30,20 @@ Users should be able to:
 
 ### Screenshot
 
-| **Mobile Small:** | **Laptop:** |
-| :---------------: | :---------: |
-| <img src="./finished-website/1-Mobile-S.png" width="250"> | <img src="./finished-website/4-Laptop.png" width="450"> | 
-| **Mobile Large:** | **Laptop/Desktop:** |
+|                     **Mobile Small:**                     |                           **Laptop:**                            |
+| :-------------------------------------------------------: | :--------------------------------------------------------------: |
+| <img src="./finished-website/1-Mobile-S.png" width="250"> |     <img src="./finished-website/4-Laptop.png" width="450">      |
+|                     **Mobile Large:**                     |                       **Laptop/Desktop:**                        |
 | <img src="./finished-website/2-Mobile-L.png" width="250"> | <img src="./finished-website/5-LaptopL-Desktop.png" width="450"> |
-| **Tablet:** | **Original Clear BG:** |
-|  <img src="./finished-website/3-Tablet.png" width="350"> | <img src="./finished-website/6-ClearBg.png" width="450"> |
+|                        **Tablet:**                        |                      **Original Clear BG:**                      |
+|  <img src="./finished-website/3-Tablet.png" width="350">  |     <img src="./finished-website/6-ClearBg.png" width="450">     |
+
 <hr>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click me](https://www.frontendmentor.io/solutions/responsive-and-mobilefirst-approach-design-using-figma-and-bootstrap-aRvVQ8lDh0)
+- Live Site URL: [Click me](https://product-preview-card-component-beta-one.vercel.app/)
 
 ## My process
 
@@ -54,7 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-- Mostly review about: 
+- Mostly review about:
   - Responsive layouts
   - Bootstrap
 - Utilize more of the bootstrap classes than the past.
@@ -63,7 +65,7 @@ Users should be able to:
 ### Continued development
 
 - Planning to learn more about CSS Layouts (Grid and Flexbox)
-- More responsive and accurate styling (margins, paddings, etc.) 
+- More responsive and accurate styling (margins, paddings, etc.)
 - Looking forward to use CSS Tricks and more pseudo tricks in the future.
 - More efficient approach in creating front-end designs, and much more.
 - And lastly, implementation of Javascript in web development journey.
@@ -83,4 +85,74 @@ Users should be able to:
 - Instagram - [@iron_markk](https://www.instagram.com/iron_markk/)
 
 ## Acknowledgments
+
 I would like to thank first in myself to do these things instead of just sleeping. Also to the internet and the websites I specified in the "Useful resources" section, or some that isn't, which is probably I forgot. Also to the FrontEndMentor for providing these resources for everyone to learn much easier, and not just get stuck in tutorial hell watching random videos.
+
+## Suggestions/Feedbacks
+
+### HTML validation report (1)
+
+- Section lacks heading. Consider using `h2`-`h6` elements to add identifying headings to all sections.
+
+```html
+<section class="__col-1 col-12 col-md-5 col-lg-5 p-0"></section>
+```
+
+### Community Feedback:
+
+- **Lucas 👾** • 105,240 [_(@correlucas)_](https://github.com/correlucas)
+
+  - Fix the alignment of the whole content using `flex` and `min-height` to manage the vertical alignment and make everything centered:
+    - First of all put `min-height: 100vh` to the `body` to make the body display 100% of the viewport height.
+      - (This makes the container align to the height size that's now 100% of the screen height) size
+    - `display: flex` and `flex-direction: column` to align the child element (the container) vertically using the body as reference.
+    - ```css
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      ```
+
+  - A better way to work this solution image, the product image.
+    - By using **`<picture>`** to wrap it on the html instead of using it as `<img>` or `background-image` (with the css).
+    - Using `<picture>` you wrap both images (desktop and mobile) and have more control over it.
+      - You can set in the html when the images changes setting the screen size for each image that
+      - For **SEO / search engine** reasons isn’t a better practice import this product image with CSS since this will make it harder to the image.
+      - See the example below:
+        ```html
+        <picture>
+          <source
+            media="(max-width:650px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <img
+            src="./images/image-product-desktop.jpg"
+            alt="Gabrielle Parfum"
+            style="width:auto;"
+          />
+        </picture>
+        ```
+
+- **Thomas** • 150 [@Thomasvdk783](https://github.com/Thomasvdk783)
+  - To center your main element you can do this in your css:
+  ```css
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  ```
+
+<br>
+
+### Next Action (Soon):
+- [X] Implement changes from community feedback
+- [ ] TBA...
+
+
+
+<br>
+
+_Updated Feb 11, 2023_
