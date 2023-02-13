@@ -16,7 +16,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-- [Suggestions/Feedbacks](#Suggestions/Feedbacks)
+- [Suggestions/Feedbacks](#suggestionsfeedbacks)
 
 ## Overview
 
