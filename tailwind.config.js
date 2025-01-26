@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'desktop-bg': "url('/bg-intro-desktop.png')",
-        'mobile-bg': "url('/bg-intro-mobile.png')",
+        'desktop-bg': "url('/image-product-mobile.jpg')",
+        'mobile-bg': "url('/image-product-desktop.jpg')",
       },
       colors: {
         primary: {
@@ -16,18 +16,17 @@ export default {
           cream: 'hsl(30, 38%, 92%)',
         },
         neutral: {
-          darkBlue: 'hsl(249, 10%, 26%)',
-          grayishBlue: 'hsl(246, 25%, 77%)',
+          verydarkBlue: 'hsl(212, 21%, 14%)',
+          darkgrayishBlue: 'hsl(228, 12%, 48%)',
+          white: 'hsl(0, 0%, 100%)',
         },
       },
       fontFamily: {
         sans: ['"Poppins"', 'sans-serif'],
+        serif: ['"Fraunces"', 'serif'],
       },
       fontSize: {
         body: '16px',
-      },
-      rounded: {
-        md: '6px',
       },
       screens: {
         'xs': '375px',
