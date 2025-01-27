@@ -1,5 +1,3 @@
-import "./App.css";
-
 function RightContainer() {
   return (
     <section className="__col-2 col ms-3 my-4 my-md-1">

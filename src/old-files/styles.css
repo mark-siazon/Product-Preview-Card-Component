@@ -1,41 +1,32 @@
-:root{
-    --bg_theme: #F2EBE3;
-    --primary_color: #3C8067;
+:root {
+  --bg_theme: #f2ebe3;
+  --primary_color: #3c8067;
 }
-html, body{
-    background-color: var(--bg_theme);
-    font-size: 14px; 
-    font-family: 'Montserrat', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.__col-main{
-    background-color: #fff;
-    border-radius: 1rem 0 0 1rem ;
-    box-shadow: 0 1rem 1.5rem rgba(0,0,0,.5);
+html,
+body {
+  background-color: var(--bg_theme);
 }
 
 /***** CTN-2 - Main Styles *****/
-.__hero-header h1, .__hero-prices{
-    font-family: 'Fraunces', serif;
+.__hero-header h1,
+.__hero-prices {
+  font-family: "Fraunces", serif;
 }
-.__hero-header h3{
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-}
-
-/***** CTN-2 - Prices Section *****/ 
-.__hero-prices{
-    color: var(--primary_color);
+.__hero-header h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
 }
 
-/***** CTN-2 - Button Section *****/ 
-.__main-btns{
-    background-color: var(--primary_color);
-    border: 0.5px solid #1C232B !important;
+/***** CTN-2 - Prices Section *****/
+.__hero-prices {
+  color: var(--primary_color);
 }
-.__main-btns:hover{
-    background-color: #204434 !important;
+
+/***** CTN-2 - Button Section *****/
+.__main-btns {
+  background-color: var(--primary_color);
+  border: 0.5px solid #1c232b !important;
+}
+.__main-btns:hover {
+  background-color: #204434 !important;
 }
