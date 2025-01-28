@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --desktop-bg: "url('/image-product-mobile.jpg')";
+  --mobile-bg: "url('/image-product-desktop.jpg')";
+
+  --color-pri-darkcyan: hsl(158, 36%, 37%);
+  --color-pri-cream: hsl(30, 38%, 92%);
+  --color-neu-verydarkblue: hsl(212, 21%, 14%);
+  --color-neu-darkgrayishblue: hsl(228, 12%, 48%);
+  --color-neu-white: hsl(0, 0%, 100%);
+
+  --font-sans: "Poppins", sans-serif;
+  --font-serif: "Fraunces", serif;
+
+  --font-size-body: 16px;
+  --breakpoint-xs: 375px;
+}
