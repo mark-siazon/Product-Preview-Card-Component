@@ -14,7 +14,7 @@ function RightContainer() {
       </div>
 
       <div className="__hero-prices col-12 col-md-8 col-lg-6 row mx-auto mx-md-0 my-4">
-        <p className="fs-3 col-4 col-md-8 col-lg-7 m-auto">$149.99</p>
+        <p className="fs-3 m-auto">$149.99</p>
         <p className="fs-6 col-5 col-md-3 col-lg-2 my-auto mx-2 text-decoration-line-through text-muted">
           $169.99
         </p>
