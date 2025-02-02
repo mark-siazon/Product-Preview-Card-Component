@@ -1,16 +1,20 @@
+import productImg_Desktop from "/image-product-desktop.jpg";
+import productImg_Mobile from "/image-product-mobile.jpg";
+
 function LeftContainer() {
   return (
-    <section className="__col-1 col-12 col-md-5 col-lg-5 p-0">
+    <section>
       <picture>
         <source
-          className="__image-2 img-fluid rounded-4"
           media="(max-width:768px)"
-          srcSet="images/image-product-mobile.jpg"
+          srcSet={productImg_Mobile}
+          width={400}
         />
         <img
-          className="__image-1 img-fluid rounded-4"
-          src="images/image-product-desktop.jpg"
+          className="img-fluid rounded-4 rounded-t-2xl md:rounded-r-none md:rounded-l-xl md:h-full"
+          src={productImg_Desktop}
           alt="Perfume Product"
+          height={300}
         />
       </picture>
     </section>
