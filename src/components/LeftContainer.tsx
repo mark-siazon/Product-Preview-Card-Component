@@ -13,8 +13,8 @@ function LeftContainer() {
         <img
           className="img-fluid rounded-4 rounded-t-2xl md:rounded-r-none md:rounded-l-xl md:h-full"
           src={productImg_Desktop}
+          width={300}
           alt="Perfume Product"
-          height={300}
         />
       </picture>
     </section>
