@@ -4,16 +4,12 @@ import productImg_Mobile from "/image-product-mobile.jpg";
 function LeftContainer() {
   return (
     <section>
+      <h2 className="sr-only">Product Perfume Image: Gabrielle CHANEL PARIS</h2>
       <picture>
-        <source
-          media="(max-width:768px)"
-          srcSet={productImg_Mobile}
-          width={400}
-        />
+        <source media="(max-width:768px)" srcSet={productImg_Mobile} />
         <img
-          className="img-fluid rounded-4 rounded-t-2xl md:rounded-r-none md:rounded-l-xl md:h-full"
+          className="img-fluid w-[400px] md:w-[300px] rounded-4 rounded-t-xl md:rounded-r-none md:rounded-l-xl md:h-full"
           src={productImg_Desktop}
-          width={300}
           alt="Perfume Product"
         />
       </picture>
