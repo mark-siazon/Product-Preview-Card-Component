@@ -23,3 +23,9 @@
   /* Breakpoints */
   --breakpoint-xs: 375px;
 }
+
+.button {
+  @apply text-base text-neu-white bg-pri-darkcyan rounded-xl 
+  hover:brightness-120 active:bg-pri-darkcyan-active
+  cursor-pointer transition-all duration-500;
+}

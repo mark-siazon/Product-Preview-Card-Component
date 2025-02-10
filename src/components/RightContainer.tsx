@@ -1,6 +1,10 @@
+import { useState } from "react";
 import PriButton from "./PriButton";
+import Modal from "./Modal";
 
 function RightContainer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <section className="mx-auto md:ms-[30px] mt-[30px] max-w-[85%] md:max-w-[260px] font-sans text-neu-darkgrayishblue">
       <div className="md:max-w-[85%]">
@@ -26,7 +30,8 @@ function RightContainer() {
         </p>
       </div>
 
-      <PriButton />
+      <PriButton onClick={() => setIsModalOpen(true)} />
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </section>
   );
 }
