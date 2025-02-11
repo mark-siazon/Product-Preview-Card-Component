@@ -1,6 +1,8 @@
-import { useState } from "react";
+interface PriButtonProps {
+  onClick: () => void;
+}
 
-function PriButton({ onClick }) {
+function PriButton({ onClick }: PriButtonProps) {
   return (
     <button
       type="button"
