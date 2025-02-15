@@ -16,7 +16,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-- [Suggestions/Feedbacks](#suggestionsfeedbacks)
 
 ## Overview
 
@@ -34,7 +33,7 @@ Users should be able to:
   
 **Fullscreen View (Desktop)**
 | -------------------------------------------------- |
-| ![](./src/assets/design-finished/0.1-Original.png) |
+| ![](./src/assets/design-finished/0.1-Original.jpg) |
 
 **Animated Preview:**
 | -------------------------------------------------------- |
@@ -51,11 +50,15 @@ All viewports were included (except for the 4k view).
 
 | Desktop View (1440px)                             | Laptop View (1024px)                             | Tablet View (768px)                              |
 | ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
-| ![](./src/assets/design-finished/1.0-Desktop.png) | ![](./src/assets/design-finished/1.1-Laptop.png) | ![](./src/assets/design-finished/1.2-Tablet.png) |
+| ![](./src/assets/design-finished/1.0-Desktop.jpg) | ![](./src/assets/design-finished/1.1-Laptop.jpg) | ![](./src/assets/design-finished/1.2-Tablet.jpg) |
 
 | Mobile L (430px)                                  | Mobile M (375px)                                  | Mobile S (320px)                                  |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| ![](./src/assets/design-finished/1.3-MobileL.png) | ![](./src/assets/design-finished/1.4-MobileM.png) | ![](./src/assets/design-finished/1.5-MobileS.png) |
+| ![](./src/assets/design-finished/1.3-MobileL.jpg) | ![](./src/assets/design-finished/1.4-MobileM.jpg) | ![](./src/assets/design-finished/1.5-MobileS.jpg) |
+
+| Mobile :: Modal Active                                     | Tablet :: Modal Active                                    |
+| ---------------------------------------------------------- | --------------------------------------------------------- |
+| ![](./src/assets/design-finished/1.5.1-MobileS-Active.jpg) | ![](./src/assets/design-finished/1.2.1-Tablet-Active.jpg) |
 
 <hr>
 
@@ -74,6 +77,7 @@ All viewports were included (except for the 4k view).
   - Vite for faster development
   - Tailwind CSS for utility-first styling
   - Improved and more accurate UI/UX design
+  - Added modal when button is pressed
 
 - **Version 1 (Old)** (Originally built two years ago)
   - Semantic HTML5 markup
@@ -119,9 +123,5 @@ All viewports were included (except for the 4k view).
 
 I would like to thank first in myself to do these things instead of just sleeping. Also to the internet and the websites I specified in the "Useful resources" section, or some that isn't, which is probably I forgot. Also to the FrontEndMentor for providing these resources for everyone to learn much easier, and not just get stuck in tutorial hell watching random videos.
 
-## Suggestions/Feedbacks
-
-<br>
-
-v2 (Latest): _Feb 9, 2025_
-v1: _Feb 11, 2023_
+- v2 (Latest): _Feb 14, 2025_
+- v1: _Feb 11, 2023_
